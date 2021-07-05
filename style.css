@@ -1,0 +1,179 @@
+body{
+    margin: 0px;
+    font-family: 'Secular One', sans-serif;
+    background-image:linear-gradient( black, blue);
+    background-repeat: no-repeat;
+    width: 100%;
+    color: white;
+
+}
+/* nav ber start */
+.nav-ber{
+    display: flex;
+    background-color: black;
+    color: white;
+    padding-bottom: 5px;
+    height: 50px;
+}
+.nav-ber-item{
+    padding-left: 400px;
+}
+.nav-ber-item ul li{
+    list-style: none;
+    float: left;
+    padding-left:40px ;
+}
+#logo{
+    margin: 15px 0px 0px 40px;
+}
+#logo a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 800;
+    font-style: italic;
+}
+/* Nav-ber End */
+
+/* top-banner and About banner start */
+.container{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding: 6%;
+}
+.half-width h1{
+    font-size: 45px;
+}
+.half-width h2{
+    font-size: 35px;
+}
+.half-width img{
+    width: 80%;
+}
+.half-width a{
+    margin-top: 20px;
+}
+.color-highlight{
+    color: tomato;
+}
+.top-banner{
+    
+}
+.link-button{
+    text-decoration: none;
+    padding: 10px 40px;
+    color: white;
+    font-weight: 800px;
+    border-radius: 5px;
+    background-image: linear-gradient(salmon, tomato);
+
+}
+.cv-button{
+    text-decoration: none;
+    padding: 10px 40px;
+    font-weight: 800px;
+    border-radius: 5px;
+    color: white;
+}
+/* top banner end */
+.header-style1{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+   
+}
+
+/* services container */
+.one-third-container{
+    width: 32%;
+    margin: 0px 10px 20px 10px;
+    background: black;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+.img-container img {
+    width: 32%;
+    height: 300px;
+    margin-left: 15px;
+    border-radius: 15px;
+}
+.btn{
+    border-style: none;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+.skills-container h2{
+    text-align: center;
+    color: salmon;
+}
+.skills img{
+   margin-top: 25px;
+    width: 330px;
+    height: 190px;
+}
+.skills p{
+    text-align: center;
+}
+#resize img{
+    margin-left: 15px;
+    padding-top: 10px;
+    width: 200px;
+    height: 170px;
+}
+/* contact us  */
+.login{
+    margin-top: 20px;
+    margin-left: 25%;
+    border-style: none;
+    
+    
+}
+.login input{
+    display: inline;
+    width: 300px;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: rgb(20, 20, 241);
+}
+.subject{
+    margin-left: 25%;
+    font-size: 20px;
+    
+}
+.subject input{
+    width: 640px;
+    margin-top: 20px;
+    padding: 15px ;
+    font-size: 20px;
+    background-color: rgb(20, 20, 241);
+    color: white;
+    border-radius: 5px;
+}
+.subject textarea{
+    margin-top: 20px;
+    height: 50px;
+    width: 640px;
+    padding:15px ;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: rgb(20, 20, 241);
+    color: white;
+    border-radius: 5px;
+    
+}
+/* footer section */
+footer{
+    margin-top: 50px;
+    background-color: black;
+    padding-left: 20px;
+}
+footer small{
+    margin: 10px;
+}
+#copyright{
+    padding-left:  800px;
+    padding-top: 100px;
+}
